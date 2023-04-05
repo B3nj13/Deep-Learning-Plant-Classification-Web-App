@@ -2,7 +2,7 @@
 
 ## What can it do?
 
-Using a pre made machine learning solution to recognize multiple objects on image to be presented to it. Even better, not only is it found that the image contains an object, but we can also get the co-ordinates of the bounding box for each object it finds, which allows highlighting of the found object in the image. 
+Using machine learning model to recognize multiple objects on image to be presented to it. Even better, not only is it found that the image contains an object, but it can also get the co-ordinates of the bounding box for each object it finds, which allows highlighting of the found object in the image. 
 
 Loading a model using the ImageNet-SSD architecture, to [recognize 90 common objects](https://github.com/tensorflow/tfjs-models/blob/master/coco-ssd/src/classes.ts) the model has already been taught to find from the [COCO dataset](http://cocodataset.org/#home).
 
